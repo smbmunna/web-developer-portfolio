@@ -87,7 +87,10 @@ nav li a{
     text-align: center;
     font-size: 18px;
     font-weight: 400;
-
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
 }
 /* About section styles */
 .about{
@@ -95,4 +98,11 @@ nav li a{
     border-radius: 10px;
     background: #FFF8F3;
     margin-top: 130px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
